@@ -1,4 +1,4 @@
-// src/utils/chartData.js
+
 
 export const getBalanceData = (transactions) => {
   let balance = 0;
