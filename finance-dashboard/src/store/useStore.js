@@ -1,6 +1,5 @@
 import { create } from "zustand";
 
-// 🔹 Load from localStorage
 const savedTransactions =
   JSON.parse(localStorage.getItem("transactions")) || [
     { id: 1, type: "income", amount: 5000, category: "Salary", date: "2026-04-01" },
